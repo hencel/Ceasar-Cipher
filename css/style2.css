@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #0054AC;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.footerBackground {
+	background-color: #3674B5;
+	padding: 2% 0;
+}
+.footerBackground p {
+	color: white;
+	font-size: 1.2em;
+}
+.description p {
+	margin: 2% 0 2% 0;
+	text-align: justify;
+	font-size: 1.3em;
+}
+.projLower {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 0;
+}
+.userText {
+    width: 40%;
+    height: 150px;
+    border: 1px solid #0054AC;
+}
+.programText {
+	width: 40%;
+    height: 150px;
+    border: 1px solid #0054AC;
+}
+h3 {
+    text-align: center;
+    margin: 4% 0; 
+}
+label {
+    margin-top: 2%;
+    display: block;
+}
+button {
+    border-radius: 8%;
+    font-size: 1.1em;
+    padding: 0.5%;
+}
+.projUpper input {
+    width: 15%;
+    font-size: 1.1em;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="title" content='Ceasar Cipher' />
+<meta name="description" content='Ceasar Cipher - My project' />
+<meta name="author" content="Zbigniew Piernik" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>	
+	
+    <section class="container">
+        <article class=projUpper>
+            <h3>"Szyfr Cezara" - Wpisz wiadomość w pole poniżej i kliknij wybraną funkcję:</h3>
+            
+            <label>
+                <button class="button">Szyfrowanie</button>
+                Zaszyfruj wiadomość używając szyfru Cezara.
+                <input type='number' name='ceasarKey' placeholder='wpisz klucz szyfru' min="1" max="26">
+            </label>
+            <label>
+                <button class="button">Deszyfrowanie</button>
+                Rozszyfruj wiadomość używając szyfru Cezara.
+                <input type='number' name='ceasarDekey' placeholder='wpisz klucz szyfru' min="1" max="26">
+            </label>
+            <label>
+                <button class="buttonClear">Clear</button>
+                Wyczyść zawartość
+            </label>
+        </article>
+        <article class="projLower">
+            <input class="userText" type="text" name="userText" placeholder="Wpisz swój tekst/słowo">
+            <article class="programText" placeholder="Wynik"></article>
+
+        </article>
+    </section>
+    <footer class="footerBackground">
+		<section class="container">
+			<p>© 2019 Zbigniew Piernik</p>
+		</section>
+	</footer>
+
+    <script src='js/script.js'></script>
+</body>
+</html>
